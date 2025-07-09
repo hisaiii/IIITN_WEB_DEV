@@ -35,13 +35,13 @@ import InstitutionInnovationCouncil from "./others/IIC";
 import OfficialDoc from "./others/officialDoc";
 import ElectoralLiteracyClub from "./others/electrolLC";
 import GuestHouse from "./others/guestHouse";
-import PressRelease from "./others/pressRelease";
+import PressRelease from "./others/pressRelase";
 
 import LatestUpdates from "./LatestUpdates";
 import Committee from "./committee";
 import ReviewForm from "./review";
 
-import Grievance from "./footer/Grievance";
+import Grievance from "./footer/grievance";
 import GrievanceCommitteeSCST from "./footer/grievanceCommitee";
 import HowToReach from "./footer/howToReach";
 import NetworkingComplaint from "./footer/networkingComplaints";

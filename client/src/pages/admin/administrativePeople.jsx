@@ -49,7 +49,7 @@ const AdministrativePeopleForm = () => {
 
     try {
       // Single API call with complete form data
-      await axios.post("/api/administrative-people/create", formData);
+      await axios.post("https://iiitn-web-dev.onrender.com/api/administrative-people/create", formData);
 
       setSubmitMessage({
         type: "success",

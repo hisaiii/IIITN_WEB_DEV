@@ -47,7 +47,7 @@ const GovernanceGroupsForm = () => {
     setSubmitMessage({ type: "", message: "" });
 
     try {
-      const memberResponse = await axios.post("/api/members", {
+      const memberResponse = await axios.post("https://iiitn-web-dev.onrender.com/api/members", {
         name: formData.name,
         email: [formData.email],
         contact_number: [formData.contact_number],
@@ -59,7 +59,7 @@ const GovernanceGroupsForm = () => {
         },
       });
 
-      await axios.post("/api/governance-groups", {
+      await axios.post("https://iiitn-web-dev.onrender.com/api/governance-groups", {
         member_id: memberResponse.data._id,
         group_type: formData.group_type,
         group_name: formData.group_name,

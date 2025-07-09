@@ -4,7 +4,7 @@ import React from 'react';
 const Hero = ({ data ={} }) => {
     // Find the first image with isVisible: true
     
-    const activeImageUrl=data["image-1"]?data["image-1"]:"";
+const activeImageUrl = data["image-1"] || "/images/admin.png";
     return (
         <div 
             className="w-full h-screen background bg-fixed" 

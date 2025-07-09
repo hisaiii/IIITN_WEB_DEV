@@ -4,16 +4,20 @@ import Chairman from "./governance/administration/Chairman";
 import Registrar from "./governance/administration/Registrar";
 import Administration from "./governance/administration/administration";
 import Staff from "./governance/administration/Staff";
-import AboutUs from "./about us/act";
-import Facilities from "./about us/facilities";
+
+import AboutUs from "./about_us/act";
+import Facilities from "./about_us/facilities";
+
 import Admissions from "./admissions";
+
 import PlacementAboutUs from "./placements/PlacementAboutUs";
-import WhyRecruitIIITN from "./placements/Why Recruit from IIITN Nagpur";
+import WhyRecruitIIITN from "./placements/WhyRecruitfromIIITNNagpur";
 import Statistics from "./placements/Statistics";
 import ForCompanies from "./placements/ForCompanies";
 import ForStudents from "./placements/ForStudents";
 import ContactTP from "./placements/ContactTP";
-import Internship from "./placements/Intership";
+import Internship from "./placements/Internship";
+
 import Activities from "./students/activities";
 import Achievements from "./students/achievements";
 import ClinicalCounselling from "./students/clinicalCounselling";
@@ -23,16 +27,20 @@ import StudentMess from "./students/StudentMess";
 import Download from "./students/downloads";
 import Convocation from "./students/convocation";
 import Fees from "./students/fees";
+
 import NIRF from "./nirf";
+
 import Consultancy from "./others/consultancy";
 import InstitutionInnovationCouncil from "./others/IIC";
 import OfficialDoc from "./others/officialDoc";
-import ElectoralLiteracyClub from "./others/electrolLC";
+import ElectoralLiteracyClub from "./others/electoralLC";
 import GuestHouse from "./others/guestHouse";
-import PressRelease from "./others/pressRelase";
+import PressRelease from "./others/pressRelease";
+
 import LatestUpdates from "./LatestUpdates";
 import Committee from "./committee";
 import ReviewForm from "./review";
+
 import Grievance from "./footer/Grievance";
 import GrievanceCommitteeSCST from "./footer/grievanceCommitee";
 import HowToReach from "./footer/howToReach";
@@ -48,6 +56,7 @@ import Location from "./footer/location";
 import Tender from "./footer/tender";
 import Recruitment from "./footer/recruitment";
 import GuestHouseQuickLinks from "./footer/guestHouseLinks";
+
 import AdminLogin from "./admin/adminLogin";
 import AdminDashboard from "./admin/adminDashboard";
 import ManageHome from "./admin/manageHome";
@@ -63,6 +72,7 @@ import DynamicSectionForm from "./admin/forms/dynamicSectionForm";
 import ManagePage from "./admin/managePage";
 import SectionConfigForm from "./admin/forms/sectionConfigForm";
 import CreatePageForm from "./admin/forms/createPageForm";
+
 export {
   Homepage,
   Director,
@@ -107,12 +117,12 @@ export {
   SexualHarassmentPolicy,
   EqualOpportunity,
   InstituteWebmail,
-  OnlineFeesPayment, 
+  OnlineFeesPayment,
   AcademicCalendar,
-  HowToReach ,
-  Location ,
-  Tender ,
-  Recruitment ,
+  HowToReach,
+  Location,
+  Tender,
+  Recruitment,
   GuestHouseQuickLinks,
   AdminLogin,
   AdminDashboard,
@@ -129,5 +139,4 @@ export {
   ManagePage,
   SectionConfigForm,
   CreatePageForm
-  
 };

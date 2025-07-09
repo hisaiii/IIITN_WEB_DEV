@@ -14,6 +14,7 @@ import {
   Partners,
 } from "../components";
 import Research from "../components/research";
+import Loading from "../components/Loading";
 
 export default function Homepage() {
   const [heroData, setHeroData] = useState({});

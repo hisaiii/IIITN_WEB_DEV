@@ -33,7 +33,7 @@ import NIRF from "./nirf";
 import Consultancy from "./others/consultancy";
 import InstitutionInnovationCouncil from "./others/IIC";
 import OfficialDoc from "./others/officialDoc";
-import ElectoralLiteracyClub from "./others/electoralLC";
+import ElectoralLiteracyClub from "./others/electrolLC";
 import GuestHouse from "./others/guestHouse";
 import PressRelease from "./others/pressRelease";
 

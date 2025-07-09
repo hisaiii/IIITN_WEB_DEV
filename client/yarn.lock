@@ -2240,9 +2240,9 @@ semver@^6.3.1:
   resolved "https://registry.npmjs.org/semver/-/semver-6.3.1.tgz"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
-"server@file:../..":
+"server@file:..":
   version "1.0.0"
-  resolved "file:../.."
+  resolved "file:.."
   dependencies:
     axios "^1.7.9"
     bcrypt "^5.1.1"

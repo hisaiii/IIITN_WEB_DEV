@@ -9,7 +9,7 @@ import Facilities from "./about us/facilities";
 import Admissions from "./admissions";
 import PlacementAboutUs from "./placements/PlacementAboutUs";
 import WhyRecruitIIITN from "./placements/Why Recruit from IIITN Nagpur";
-import Statistics from "./placements/statistics";
+import Statistics from "./placements/Statisticstatistics";
 import ForCompanies from "./placements/ForCompanies";
 import ForStudents from "./placements/ForStudents";
 import ContactTP from "./placements/ContactTP";
